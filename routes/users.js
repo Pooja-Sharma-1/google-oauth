@@ -1,5 +1,5 @@
 const mongooge=require('mongoose')
-mongooge.connect('mongodb://127.0.0.1:27017/googleoauth')
+mongooge.connect('mongodb+srv://pjasharma2004:Rashi123@cluster0.9mruo4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 const userSchema=mongooge.Schema({
   name:String,
   email:String
